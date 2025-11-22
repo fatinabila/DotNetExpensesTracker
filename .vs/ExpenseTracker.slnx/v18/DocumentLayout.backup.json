@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fatin\\Desktop\\ExpenseTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF96206-638F-D42C-EC66-B3D63A12BF07}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\fatin\\desktop\\expensetracker\\expensetracker\\data\\expensetrackerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF96206-638F-D42C-EC66-B3D63A12BF07}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\data\\expensetrackerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF96206-638F-D42C-EC66-B3D63A12BF07}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\fatin\\desktop\\expensetracker\\expensetracker\\models\\expensestracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF96206-638F-D42C-EC66-B3D63A12BF07}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\models\\expensestracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF96206-638F-D42C-EC66-B3D63A12BF07}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\fatin\\desktop\\expensetracker\\expensetracker\\services\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF96206-638F-D42C-EC66-B3D63A12BF07}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\services\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF96206-638F-D42C-EC66-B3D63A12BF07}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\fatin\\desktop\\expensetracker\\expensetracker\\controllers\\expensetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF96206-638F-D42C-EC66-B3D63A12BF07}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\controllers\\expensetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF96206-638F-D42C-EC66-B3D63A12BF07}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\fatin\\desktop\\expensetracker\\expensetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CEF96206-638F-D42C-EC66-B3D63A12BF07}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExpenseTrackerDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fatin\\Desktop\\ExpenseTracker\\ExpenseTracker\\Data\\ExpenseTrackerDbContext.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\Data\\ExpenseTrackerDbContext.cs",
+              "ToolTip": "C:\\Users\\fatin\\Desktop\\ExpenseTracker\\ExpenseTracker\\Data\\ExpenseTrackerDbContext.cs",
+              "RelativeToolTip": "ExpenseTracker\\Data\\ExpenseTrackerDbContext.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwCQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T10:40:18.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExpensesTracker.cs",
+              "DocumentMoniker": "C:\\Users\\fatin\\Desktop\\ExpenseTracker\\ExpenseTracker\\Models\\ExpensesTracker.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\Models\\ExpensesTracker.cs",
+              "ToolTip": "C:\\Users\\fatin\\Desktop\\ExpenseTracker\\ExpenseTracker\\Models\\ExpensesTracker.cs",
+              "RelativeToolTip": "ExpenseTracker\\Models\\ExpensesTracker.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA0wA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T05:51:05.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IExpenseService.cs",
+              "DocumentMoniker": "C:\\Users\\fatin\\Desktop\\ExpenseTracker\\ExpenseTracker\\Services\\IExpenseService.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\Services\\IExpenseService.cs",
+              "ToolTip": "C:\\Users\\fatin\\Desktop\\ExpenseTracker\\ExpenseTracker\\Services\\IExpenseService.cs",
+              "RelativeToolTip": "ExpenseTracker\\Services\\IExpenseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:02:09.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExpenseTracker.cs",
+              "DocumentMoniker": "C:\\Users\\fatin\\Desktop\\ExpenseTracker\\ExpenseTracker\\Controllers\\ExpenseTracker.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\Controllers\\ExpenseTracker.cs",
+              "ToolTip": "C:\\Users\\fatin\\Desktop\\ExpenseTracker\\ExpenseTracker\\Controllers\\ExpenseTracker.cs",
+              "RelativeToolTip": "ExpenseTracker\\Controllers\\ExpenseTracker.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T05:56:31.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fatin\\Desktop\\ExpenseTracker\\ExpenseTracker\\appsettings.json",
+              "RelativeDocumentMoniker": "ExpenseTracker\\appsettings.json",
+              "ToolTip": "C:\\Users\\fatin\\Desktop\\ExpenseTracker\\ExpenseTracker\\appsettings.json",
+              "RelativeToolTip": "ExpenseTracker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-22T10:35:53.785Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

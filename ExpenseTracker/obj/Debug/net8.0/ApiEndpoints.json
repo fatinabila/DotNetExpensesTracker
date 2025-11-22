@@ -1,0 +1,111 @@
+[
+  {
+    "ContainingType": "ExpenseTracker.Controllers.ExpenseTrackerController",
+    "Method": "GetExpenses",
+    "RelativePath": "api/ExpenseTracker",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ExpenseTracker.Models.Expenses, ExpenseTracker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExpenseTracker.Controllers.ExpenseTrackerController",
+    "Method": "CreateExpense",
+    "RelativePath": "api/ExpenseTracker",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expense",
+        "Type": "ExpenseTracker.Models.Expenses",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExpenseTracker.Models.Expenses",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExpenseTracker.Controllers.ExpenseTrackerController",
+    "Method": "GetExpense",
+    "RelativePath": "api/ExpenseTracker/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExpenseTracker.Models.Expenses",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExpenseTracker.Controllers.ExpenseTrackerController",
+    "Method": "UpdateExpense",
+    "RelativePath": "api/ExpenseTracker/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "expense",
+        "Type": "ExpenseTracker.Models.Expenses",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExpenseTracker.Controllers.ExpenseTrackerController",
+    "Method": "DeleteExpense",
+    "RelativePath": "api/ExpenseTracker/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
