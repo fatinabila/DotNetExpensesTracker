@@ -6,24 +6,24 @@ namespace ExpenseTracker.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ExpenseTrackerController : ControllerBase
+    public class ExpenseController : ControllerBase
     {
         private readonly IExpenseService _expenseService;
 
-        public ExpenseTrackerController(IExpenseService expenseService)
+        public ExpenseController(IExpenseService expenseService)
         {
             _expenseService = expenseService;
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Expenses>>> GetExpenses()
+        public async Task<ActionResult<List<Expense>>> GetExpenses()
         {
             var expenses = await _expenseService.GetExpensesAsync();
             return Ok(expenses);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Expenses>> GetExpense(int id)
+        public async Task<ActionResult<Expense>> GetExpense(int id)
         {
             var expense = await _expenseService.GetExpenseByIdAsync(id);
             if (expense == null)
@@ -33,14 +33,14 @@ namespace ExpenseTracker.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Expenses>> CreateExpense(Expenses expense)
+        public async Task<ActionResult<Expense>> CreateExpense(Expense expense)
         {
             var createdExpense = await _expenseService.CreateExpenseAsync(expense);
             return CreatedAtAction(nameof(GetExpense), new { id = createdExpense.Id }, createdExpense);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateExpense(int id, Expenses expense)
+        public async Task<IActionResult> UpdateExpense(int id, Expense expense)
         {
             var updatedExpense = await _expenseService.UpdateExpenseAsync(id, expense);
             if (updatedExpense == null)

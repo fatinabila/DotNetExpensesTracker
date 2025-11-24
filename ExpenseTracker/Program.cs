@@ -24,8 +24,10 @@ builder.Services.AddCors(options =>
 builder.Services.AddDbContext<ExpenseTrackerDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Register the expense service
+// Register services
 builder.Services.AddScoped<IExpenseService, ExpenseService>();
+builder.Services.AddScoped<IIncomeService, IncomeService>();
+builder.Services.AddScoped<IReferenceService, ReferenceService>();
 
 var app = builder.Build();
 

@@ -4,6 +4,7 @@ using ExpenseTracker.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ExpenseTracker.Migrations
 {
     [DbContext(typeof(ExpenseTrackerDbContext))]
-    partial class ExpenseTrackerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251123071846_add-income-table")]
+    partial class addincometable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -150,7 +153,7 @@ namespace ExpenseTracker.Migrations
                             Id = 1,
                             Amount = 150.75m,
                             CategoryId = 1,
-                            CreatedTimeStamp = new DateTimeOffset(new DateTime(2025, 11, 21, 15, 34, 16, 906, DateTimeKind.Unspecified).AddTicks(8859), new TimeSpan(0, 8, 0, 0, 0)),
+                            CreatedTimeStamp = new DateTimeOffset(new DateTime(2025, 11, 21, 15, 18, 45, 784, DateTimeKind.Unspecified).AddTicks(2397), new TimeSpan(0, 8, 0, 0, 0)),
                             Currency = "MYR",
                             Title = "Grocery Shopping"
                         },
@@ -159,7 +162,7 @@ namespace ExpenseTracker.Migrations
                             Id = 2,
                             Amount = 60.00m,
                             CategoryId = 2,
-                            CreatedTimeStamp = new DateTimeOffset(new DateTime(2025, 11, 13, 15, 34, 16, 906, DateTimeKind.Unspecified).AddTicks(8894), new TimeSpan(0, 8, 0, 0, 0)),
+                            CreatedTimeStamp = new DateTimeOffset(new DateTime(2025, 11, 13, 15, 18, 45, 784, DateTimeKind.Unspecified).AddTicks(2437), new TimeSpan(0, 8, 0, 0, 0)),
                             Currency = "MYR",
                             Title = "Electricity Bill"
                         },
@@ -168,7 +171,7 @@ namespace ExpenseTracker.Migrations
                             Id = 3,
                             Amount = 30.50m,
                             CategoryId = 3,
-                            CreatedTimeStamp = new DateTimeOffset(new DateTime(2025, 11, 18, 15, 34, 16, 906, DateTimeKind.Unspecified).AddTicks(8896), new TimeSpan(0, 8, 0, 0, 0)),
+                            CreatedTimeStamp = new DateTimeOffset(new DateTime(2025, 11, 18, 15, 18, 45, 784, DateTimeKind.Unspecified).AddTicks(2439), new TimeSpan(0, 8, 0, 0, 0)),
                             Currency = "MYR",
                             Title = "Movie Night"
                         });
@@ -184,9 +187,6 @@ namespace ExpenseTracker.Migrations
 
                     b.Property<decimal>("Amount")
                         .HasColumnType("decimal(18,2)");
-
-                    b.Property<DateTimeOffset>("CreatedTimeStamp")
-                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("Title")
                         .IsRequired()

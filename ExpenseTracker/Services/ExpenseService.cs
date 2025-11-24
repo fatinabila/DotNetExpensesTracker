@@ -13,17 +13,17 @@ namespace ExpenseTracker.Services
             _context = context;
         }
 
-        public async Task<List<Expenses>> GetExpensesAsync()
+        public async Task<List<Expense>> GetExpensesAsync()
         {
             return await _context.Expenses.ToListAsync();
         }
 
-        public async Task<Expenses?> GetExpenseByIdAsync(int id)
+        public async Task<Expense?> GetExpenseByIdAsync(int id)
         {
             return await _context.Expenses.FindAsync(id);
         }
 
-        public async Task<Expenses> CreateExpenseAsync(Expenses expense)
+        public async Task<Expense> CreateExpenseAsync(Expense expense)
         {
             
             expense.CreatedTimeStamp = DateTimeOffset.UtcNow;
@@ -34,7 +34,7 @@ namespace ExpenseTracker.Services
             return expense; 
         }
 
-        public async Task<Expenses?> UpdateExpenseAsync(int id, Expenses expense)
+        public async Task<Expense?> UpdateExpenseAsync(int id, Expense expense)
         {
             var existingExpense = await _context.Expenses.FindAsync(id);
             if (existingExpense == null)

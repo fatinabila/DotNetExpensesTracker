@@ -2,19 +2,14 @@
 
 namespace ExpenseTracker.Models
 {
-    public class Expenses
+    public class Income
     {
         public int Id { get; set; }
         public required string Title { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]
-        public required decimal Amount { get; set; }        
-
-        public int? CategoryId { get; set; }  // Foreign key
-        public string? Category { get; set; }  // Keep for backward compatibility if needed
+        public required decimal Amount { get; set; }
 
         public DateTimeOffset CreatedTimeStamp { get; set; }
-
-        public string? Currency { get; set; } = "MYR";
     }
 }
